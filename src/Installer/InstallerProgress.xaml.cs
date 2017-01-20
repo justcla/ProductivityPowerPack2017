@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
 using System.Windows.Threading;
-using WebExtensionPack.Controls;
+using ProductivityPowerPack.Controls;
 
-namespace WebExtensionPack
+namespace ProductivityPowerPack
 {
     public partial class InstallerProgress : Window
     {

@@ -28,7 +28,7 @@
         <GuidSymbol name="guidVSPackage" value="{9996012b-8251-40e7-b2b1-e0222355ba77}" />
 
         <GuidSymbol name="guidVSPackageCmdSet" value="{231940e2-0949-4e7c-997d-de5a9e3c40fd}">
-            <IDSymbol name="MyMenuGroup" value="0x1020" />
+            <IDSymbol name="MyMenuGroup" value="0x1021" />
             <IDSymbol name="ResetExtensions" value="0x0200" />
         </GuidSymbol>
     </Symbols>

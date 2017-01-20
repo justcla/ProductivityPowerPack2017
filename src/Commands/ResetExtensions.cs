@@ -6,7 +6,7 @@ using EnvDTE80;
 using Microsoft.VisualStudio.Shell;
 using Microsoft.VisualStudio.Shell.Interop;
 
-namespace WebExtensionPack
+namespace ProductivityPowerPack
 {
     internal sealed class ResetExtensions
     {
@@ -39,7 +39,7 @@ namespace WebExtensionPack
 
         private void Execute(object sender, EventArgs e)
         {
-            string message = "This will reset Web Extension Pack and restart Visual Studio.\r\n\r\nDo you wish to continue?";
+            string message = "This will reset " + Vsix.Name + " and restart Visual Studio.\r\n\r\nDo you wish to continue?";
 
             var answer = VsShellUtilities.ShowMessageBox(
                 ServiceProvider,

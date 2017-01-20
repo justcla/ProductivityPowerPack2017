@@ -8,14 +8,14 @@ using Microsoft.VisualStudio.ExtensionManager;
 using Microsoft.VisualStudio.Shell;
 using Microsoft.VisualStudio.Shell.Interop;
 
-namespace WebExtensionPack
+namespace ProductivityPowerPack
 {
     [PackageRegistration(UseManagedResourcesOnly = true)]
     [InstalledProductRegistration("#110", "#112", Vsix.Version, IconResourceID = 400)]
     [ProvideAutoLoad(UIContextGuids80.NoSolution)]
     [Guid(PackageGuids.guidVSPackageString)]
     [ProvideMenuResource("Menus.ctmenu", 1)]
-    public sealed class VSPackage : Package
+    public sealed class PPTPackPackage : Package
     {
         protected override void Initialize()
         {

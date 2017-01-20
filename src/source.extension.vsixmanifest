@@ -5,7 +5,7 @@
     <DisplayName>Productivity Power Pack 2017</DisplayName>
     <Description xml:space="preserve">Installs the individual extensions of Productivity Power Tools 2017</Description>
     <License>Resources\EULA.rtf</License>
-    <Icon>Resources\Icon.png</Icon>
+    <Icon>Resources\PPT_Drill_icon_90x.png</Icon>
     <PreviewImage>Resources\Preview.png</PreviewImage>
     <Tags>Productivity, Power Tools, PPT, extensions, vsix, install</Tags>
   </Metadata>

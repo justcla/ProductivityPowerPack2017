@@ -60,26 +60,30 @@
     <Compile Include="Installer\InstallerProgress.xaml.cs">
       <DependentUpon>InstallerProgress.xaml</DependentUpon>
     </Compile>
+    <Compile Include="PPTPackPackage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Commands\ResetExtensions.cs" />
     <Compile Include="source.extension.cs">
       <DependentUpon>source.extension.vsixmanifest</DependentUpon>
     </Compile>
-    <Compile Include="VSPackage.cs" />
-    <Compile Include="VSCommandTable.cs">
+    <Compile Include="PPTPackCommands.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>VSCommandTable.vsct</DependentUpon>
+      <DependentUpon>PPTPackCommands.vsct</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\PPT_Drill_icon_90x.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="source.extension.ico">
       <DependentUpon>source.extension.vsixmanifest</DependentUpon>
     </Content>
-    <VSCTCompile Include="VSCommandTable.vsct">
+    <VSCTCompile Include="PPTPackCommands.vsct">
       <ResourceName>Menus.ctmenu</ResourceName>
       <Generator>VsctGenerator</Generator>
-      <LastGenOutput>VSCommandTable.cs</LastGenOutput>
+      <LastGenOutput>PPTPackCommands.cs</LastGenOutput>
     </VSCTCompile>
     <None Include="app.config" />
     <None Include="packages.config" />
