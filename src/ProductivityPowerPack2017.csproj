@@ -21,8 +21,8 @@
     <ProjectGuid>{D5750D1B-78E2-458D-AC17-802394EB81A0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WebExtensionPack</RootNamespace>
-    <AssemblyName>WebExtensionPack</AssemblyName>
+    <RootNamespace>ProductivityPowerPack</RootNamespace>
+    <AssemblyName>ProductivityPowerPack2017</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <GeneratePkgDefFile>true</GeneratePkgDefFile>
     <IncludeAssemblyInVSIXContainer>true</IncludeAssemblyInVSIXContainer>
@@ -73,10 +73,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\LICENSE">
-      <Link>Resources\LICENSE</Link>
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
     <Content Include="source.extension.ico">
       <DependentUpon>source.extension.vsixmanifest</DependentUpon>
     </Content>
@@ -87,6 +83,10 @@
     </VSCTCompile>
     <None Include="app.config" />
     <None Include="packages.config" />
+    <Content Include="Resources\EULA.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
       <Generator>VsixManifestGenerator</Generator>

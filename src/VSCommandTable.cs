@@ -12,8 +12,8 @@ namespace WebExtensionPack
     /// </summary>
     internal sealed partial class PackageGuids
     {
-        public const string guidVSPackageString = "f168228c-63f6-4db0-b426-43c30e9d1fc7";
-        public const string guidVSPackageCmdSetString = "9232585f-9c24-4dc7-bce8-985261542acf";
+        public const string guidVSPackageString = "9996012b-8251-40e7-b2b1-e0222355ba77";
+        public const string guidVSPackageCmdSetString = "231940e2-0949-4e7c-997d-de5a9e3c40fd";
         public static Guid guidVSPackage = new Guid(guidVSPackageString);
         public static Guid guidVSPackageCmdSet = new Guid(guidVSPackageCmdSetString);
     }

@@ -11,7 +11,7 @@ namespace WebExtensionPack
 
         public DataStore()
         {
-            _configFile = Environment.ExpandEnvironmentVariables("%userprofile%\\.webextensionpack2017");
+            _configFile = Environment.ExpandEnvironmentVariables("%userprofile%\\.productivitypowerpack2017");
             Initialize();
         }
 

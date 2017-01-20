@@ -18,16 +18,16 @@
                 <Icon guid="ImageCatalogGuid" id="DownloadWebSettings" />
                 <CommandFlag>IconIsMoniker</CommandFlag>
                 <Strings>
-                    <ButtonText>Reset Web Extension Pack...</ButtonText>
+                    <ButtonText>Reset Productivity Power Pack...</ButtonText>
                 </Strings>
             </Button>
         </Buttons>
     </Commands>
 
     <Symbols>
-        <GuidSymbol name="guidVSPackage" value="{f168228c-63f6-4db0-b426-43c30e9d1fc7}" />
+        <GuidSymbol name="guidVSPackage" value="{9996012b-8251-40e7-b2b1-e0222355ba77}" />
 
-        <GuidSymbol name="guidVSPackageCmdSet" value="{9232585f-9c24-4dc7-bce8-985261542acf}">
+        <GuidSymbol name="guidVSPackageCmdSet" value="{231940e2-0949-4e7c-997d-de5a9e3c40fd}">
             <IDSymbol name="MyMenuGroup" value="0x1020" />
             <IDSymbol name="ResetExtensions" value="0x0200" />
         </GuidSymbol>
